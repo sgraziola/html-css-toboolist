@@ -9,6 +9,8 @@
     --tobo_website: #D863A1;
     --tobo_mobile: #F29E33;
     --tobo_background: #F6F8F9;
+    --tobo_section:#C5CBD0;
+    --tobo_placeholder: #C6CCD1;
 }
 
 .site_header{
@@ -17,6 +19,44 @@
 .logo{
     vertical-align: middle;
     display: inline-block;
+    font-size: 45px;
 }
 
 /* /header */
+
+.site_main{
+    background-color: var(--tobo_background);
+    padding: 2rem;
+}
+
+.nav{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid var(--tobo_background);
+    border-radius: 9px 9px 0 0;
+} 
+
+.task{
+    color: white;
+    background-color: var(--tobo_task);
+    height: 30px;
+    width: 75px;
+    border: none;
+    margin-left: 50px;
+}
+
+.section{
+    height: 29px;
+    width: 90px;
+    border: 1px solid var(--tobo_section);  
+}
+
+::placeholder {
+    color: var(--tobo_placeholder)
+  }
+.button{
+    text-align: center;
+    border-radius: 5px;
+}
