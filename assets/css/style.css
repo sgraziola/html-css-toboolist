@@ -11,6 +11,12 @@
     --tobo_background: #F6F8F9;
 }
 
-body{
-    background-color: var(--tobo_goal);
+.site_header{
+    font-family: Arial, sans-serif;
 }
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* /header */
