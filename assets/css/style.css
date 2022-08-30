@@ -1,0 +1,16 @@
+/* Common rules */
+
+:root{
+    --tobo_task: #45ABEA;
+    --tobo_editorial: #47ADF1;
+    --tobo_recruit: #64C0A9;
+    --tobo_goal: #9C72E4;
+    --tobo_sales: #B0C926;
+    --tobo_website: #D863A1;
+    --tobo_mobile: #F29E33;
+    --tobo_background: #F6F8F9;
+}
+
+body{
+    background-color: var(--tobo_goal);
+}
